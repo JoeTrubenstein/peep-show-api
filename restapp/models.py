@@ -26,7 +26,5 @@ class Character(models.Model):
     relationships = models.TextField(default=" ")
     quotes = ArrayField(models.TextField(default=" ")
 
-    
-
     def __str__(self):
         return self.name
