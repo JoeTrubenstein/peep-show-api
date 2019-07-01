@@ -1,6 +1,7 @@
 from django.conf import settings
 from django.db import models
 from django.utils import timezone
+from django.contrib.postgres.fields import ArrayField
 
 class Post(models.Model):
     author = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
@@ -24,7 +25,7 @@ class Character(models.Model):
     occupation = models.TextField(default=" ")
     quotes = models.TextField(default=" ")
     relationships = models.TextField(default=" ")
-
+    tags = ArrayField(models.CharField(max_length=200), blank=True)
 
     def __str__(self):
         return self.name

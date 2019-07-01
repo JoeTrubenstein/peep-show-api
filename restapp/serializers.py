@@ -17,4 +17,4 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 class CharacterSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Character
-        fields = ('name', 'image', 'occupation', 'quotes', 'relationships')
+        fields = ('name', 'image', 'occupation', 'quotes', 'relationships', 'tags')
