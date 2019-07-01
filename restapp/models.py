@@ -24,7 +24,9 @@ class Character(models.Model):
     image = models.CharField(max_length=800)
     occupation = models.TextField(default=" ")
     relationships = models.TextField(default=" ")
-    quotes = ArrayField(models.TextField(default=" ")
+    quotes = ArrayField(models.TextField(blank=True)
+
+    
 
     def __str__(self):
         return self.name
