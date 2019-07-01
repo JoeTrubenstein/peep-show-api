@@ -8,8 +8,8 @@ An unofficial fan-made API for fetching [Peep Show](https://www.channel4.com/pro
 
 ## Built With
 
-* [Django](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Django REST framework](https://maven.apache.org/) - Dependency Management
+* [Django](http://www.dropwizard.io/1.0.2/docs/) 
+* [Django REST framework](https://maven.apache.org/) 
 
 ## Contributing
 
