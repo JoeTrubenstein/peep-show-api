@@ -20,8 +20,6 @@ I'll be putting together contributing guidelines in the near future.
 What will be needed in the short term - is a lot of data entry, 
 as well as a decision on exactly what models will be used and how they will be defined. 
 
-Currently there is only a single model ```characters``` and a single entry, Super Hans.
-
 ## Authors
 
 * **Joe Trubenstein** - *Initial work* - [GitHub](https://github.com/JoeTrubenstein)
