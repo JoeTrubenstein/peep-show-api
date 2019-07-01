@@ -1,0 +1,82 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+  {% include "includes/head.html" %}
+  <body>
+    {% include "includes/nav.html" %}
+    <header>
+      <div class="overlay"></div>
+      <img
+        alt="hahnchen at Wikimedia Commons (must include link if medium allows) [CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0)], via Wikimedia Commons"
+        src="https://upload.wikimedia.org/wikipedia/commons/f/f2/Zodiac_Court%2C_Croydon.jpg"
+      />
+      <div class="container h-100">
+        <div class="d-flex h-100 text-center align-items-center">
+          <div class="w-100 text-white">
+            <h1 class="display-3">Peep Show API</h1>
+            <p class="lead mb-0">moreish data for your next web project</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="py-5">
+      <div class="container">
+        <h1 class="font-weight-light">What is this?</h1>
+        <p class="lead">
+          This is a small educational project intended to demonstrate the
+          process of developing an API.
+        </p>
+        <p class="lead">
+          It's written in Python, and utilizes both
+          <a href="https://www.djangoproject.com/">Django</a> and the
+          <a href="https://www.django-rest-framework.org/"
+            >Django Rest Framework</a
+          >.
+        </p>
+      </div>
+<br/>
+      <div class="container">
+        <h1 class="font-weight-light">Is it legal?</h1>
+        <p class="lead">
+          To the absolute best of my knowledge.
+        </p>
+        <p class="lead">
+          I do not claim any ownership over this content, nor is this
+          application monetized in any way.
+        </p>
+        <p class="lead">
+          The images are linked from (and hosted on) the
+          <a href="https://peepshow.fandom.com/wiki/Super_Hans">Fandom Wikia</a>
+          and are herein attributed as such.
+        </p>
+        <P class="lead"
+          >The header photo is credited to
+          <a
+            href="https://commons.wikimedia.org/wiki/File:Zodiac_Court,_Croydon.jpg"
+            >hahnchen</a
+          >
+          and is under the
+          <a href="https://creativecommons.org/licenses/by-sa/3.0/"
+            >CC BY-SA 3.0</a
+          >
+          license.
+        </P>
+      </div>
+      <br/>
+
+      <div class="container">
+        <h1 class="font-weight-light">How do I use it?</h1>
+        <p class="lead">
+          The background images for the slider are set directly in the HTML
+          using inline CSS. The images in this snippet are from
+          <a href="https://unsplash.com">Unsplash</a>!
+        </p>
+      </div>
+    </section>
+
+    {% include "includes/footer.html" %}
+  </body>
+  {% include "includes/scripts.html" %}
+</html>
