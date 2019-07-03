@@ -26,6 +26,9 @@ class Character(models.Model):
     relationships = models.TextField(default=" ")
     quotes = ArrayField(models.CharField(max_length=1200), blank=True)
 
+class StoreItem(models.Model):
+    product = models.CharField(max_length=800)
+    description = models.CharField(max_length=800)
     
     def __str__(self):
         return self.name
